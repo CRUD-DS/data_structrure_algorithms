@@ -139,6 +139,7 @@ class bst{
 		}
 		return values;
 	}
+	// LEFT > RIGHT > ROOT
 	postOrder(){
 		let stack = [this.root];
 		let values = [];
